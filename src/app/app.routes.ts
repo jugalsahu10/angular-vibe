@@ -5,6 +5,7 @@ import { AddressFormComponent } from './address-form/address-form.component';
 import { TableComponent } from './table/table.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TreeComponent } from './tree/tree.component';
+import { DragDropComponent } from './drag-drop/drag-drop.component';
 
 export const routes: Routes = [
     { path: 'material', component: AngularMaterialComponent },
@@ -13,5 +14,6 @@ export const routes: Routes = [
     { path: 'table', component: TableComponent },
     { path: 'dashboard', component: DashboardComponent },
     { path: 'tree', component: TreeComponent },
+    { path: 'drag-drop', component: DragDropComponent },
     { path: '', redirectTo: '/material', pathMatch: 'full' },
 ];
